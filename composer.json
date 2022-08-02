@@ -4,6 +4,12 @@
     "description": "The Laravel Framework.",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/ramo772/laravel-filepond"
+        }
+      ],
     "require": {
         "php": "^7.3|^8.0",
         "betterapp/laravel-db-encrypter": "^1.0",
@@ -12,7 +18,7 @@
         "laravel/framework": "^8.75",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
-        "rahulhaque/laravel-filepond": "^1.8",
+        "rahulhaque/laravel-filepond": "dev-size",
         "sopamo/laravel-filepond": "^1.1"
     },
     "require-dev": {

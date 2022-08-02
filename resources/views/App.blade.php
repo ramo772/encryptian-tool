@@ -23,11 +23,20 @@
     <script src="https://unpkg.com/filepond/dist/filepond.js"></script>
 
     <div class="container ">
-        <div class="d-flex justify-content-between align-items-center mt-5">
+        <div class="d-flex justify-content-center align-items-center mt-5">
             <img src="http://www.softlock.net/css/images/Softlock-Logo.png" style="width: 50%" alt="">
+        </div>
+        <br>
+        <div class=" d-flex justify-content-center align-items-center mb-3" style="color: #06476F">
+
+            <h1 class="display-1"><strong>Encrypt Decrypt Tool</strong> </h1>
+
+            &nbsp
+
             <x-button-add button class=" btn btn-success d-flex justify-content-start  align-items-center"
                 type="button" data-bs-toggle="modal" data-bs-target="#create-modal">
                 Add New File </x-button-add>
+
             <x-modal id="create-modal" method="post" action="{{ route('files.store') }}">
                 <x-slot name="header"> Add New File
                 </x-slot>
@@ -35,10 +44,7 @@
                     <x-uploader />
                 </x-slot>
             </x-modal>
-        </div>
-        <br>
-        <div class=" d-flex justify-content-center mb-3" style="color: #06476F">
-            <h1 class="display-1"><strong>Encrypt Decrypt Tool</strong> </h1>
+
         </div>
 
         <table class="table">
