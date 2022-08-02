@@ -23,7 +23,7 @@ class FileController extends Controller
     {
         /*** Get All Files ***/
         $files = DB::table('files')->get();
-        return view('welcome', compact('files'));
+        return view('app', compact('files'));
     }
 
     /**
