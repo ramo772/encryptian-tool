@@ -62,7 +62,7 @@ You can get a list of 10 users per page by 2 ways access the local server and re
 
 OR use the auth endpoints then add the token and use this endpoint to get list of users http://127.0.0.1:8000/api/user
 
-    ![image](https://user-images.githubusercontent.com/76254252/188675182-4c9e3d63-8062-448a-b405-e155d671dadb.png)
+   ![image](https://user-images.githubusercontent.com/76254252/188675182-4c9e3d63-8062-448a-b405-e155d671dadb.png)
 
 
 Searching endpoint http://127.0.0.1:8000/api/search
